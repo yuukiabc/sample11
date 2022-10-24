@@ -12,18 +12,19 @@
     <body>
         <header>
             <h1 class="header_item">サンプルページ</h1>
-            <button id="delete">消す</button>
+            
             <p class="short_message">メニュー押してください</p>
             <ul class="header_list">
                 <li class="list_item">Home</li>
                 <li class="list_item">About</li>
                 <li class="list_item">Topic</li>
             </ul>
+            <button id="delete">消す</button>
+        </header>
+        <main>
             <div id ="photo">
                 <img  src="https://1.bp.blogspot.com/--9Rl2O4BBN0/X-Fct8K5mqI/AAAAAAABdEI/yLOziAqJO34fwn73AolVP0e42A2h-ql1QCNcBGAsYHQ/s992/onepiece06_chopper.png">
             </div>
-        </header>
-        <main>
             <div class="slide-items-wrap">
                 <ul class="slide-items">
                     <li class="slide-item">
@@ -38,6 +39,15 @@
                 </ul>
             </div>
         </main>
+        <form>
+            <div class="error-message"></div>
+            <input type="text" name="name" placeholder="お名前" class="contact-name">
+            <div class="error-message"></div>
+            <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+            <div class="error-message"></div>
+            <textarea name="message" placeholder="メッセージ内容"></textarea>
+            <button type="submit" class="btn btn-contact">送信</button>
+        </form>
     </body>
 </html>
     

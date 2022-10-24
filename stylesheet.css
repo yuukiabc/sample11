@@ -2,12 +2,28 @@
     margin:0;padding:0;
 }
 
+body {
+    text-align:center;
+}
+
 header {
     width:100%;
     padding:15px 0;
     margin:0 auto;
-    text-align:center;
+    
+    position:fixed;
+    background-color:aliceblue;
+}
 
+
+#delete {
+    margin-right:150px
+}
+
+
+#photo img {
+    height:450px;
+    margin-top:100px;
 }
 
 .header_list {
@@ -45,3 +61,4 @@ header {
   height: 50%;
     margin:auto;
 }
+

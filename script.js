@@ -19,3 +19,4 @@ slidesToShow: 7,
 slidesToScroll: 1,
 });
 });
+
