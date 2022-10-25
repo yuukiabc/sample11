@@ -5,6 +5,11 @@
 body {
     text-align:center;
 }
+h1 {
+    padding-right:1150px;
+    cursor: pointer;
+    cursor: hand;
+}
 
 header {
     z-index: 1;
@@ -14,6 +19,11 @@ header {
     
     position:fixed;
     background-color:aliceblue;
+}
+
+.list_item {
+    cursor: pointer;
+    cursor: hand;
 }
 
 
