@@ -7,6 +7,7 @@ body {
 }
 
 header {
+    z-index: 1;
     width:100%;
     padding:15px 0;
     margin:0 auto;
@@ -41,7 +42,7 @@ header {
 
 .short_message {
     font-size :13px;
-    color:rgb(175, 239, 197)
+    color:rgb(13, 137, 56)
 }
 #delete {
     float:right;
@@ -61,4 +62,30 @@ header {
   height: 50%;
     margin:auto;
 }
+
+.slider {
+    visibility: hidden;
+    
+}
+.slider img {
+    
+    width:100%;
+}
+
+.slider.slick-initialized {
+    visibility: visible;
+}
+
+.slick-prev, .slick-next {
+    z-index:1;
+}
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+
 

@@ -10,13 +10,14 @@ $('#delete').click(function() {
     $('#photo').fadeOut(1000);
     $('.short_message').fadeIn();
 });
-$('.slide-items').slick({
 
+//$('.your-class').slick({
+    //setting-name: setting-value
+//});
 
-arrows: false,
-autoplay: true,
-slidesToShow: 7,
-slidesToScroll: 1,
+$('.slider').slick({
+    arrows: false,
+    dots: true,
+    autoplay: true
 });
 });
-
